@@ -1,0 +1,4 @@
+{
+  "start": "echo hello world",
+  "dependencies": {}
+}
