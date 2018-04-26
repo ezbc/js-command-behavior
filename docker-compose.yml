@@ -10,6 +10,7 @@ services:
       - ./:/home/node/app
     expose:
       - "8081"
-    command: 
-      - "npm install --save-dev babel-cli"
+    #command: 
+    #  - "npm install --save-dev babel-cli"
+    #  - "mpn install --save-dev tape"
 

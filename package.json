@@ -1,4 +1,13 @@
 {
+  "name": "command-behavior",
+  "version": "v0.0.0",
   "start": "echo hello world",
-  "dependencies": {}
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "babel": "babel js/main.js -o build/main.bundle.js",
+    "start": "http-server"
+  }
 }
