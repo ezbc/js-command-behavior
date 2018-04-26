@@ -1,3 +1,10 @@
+
+# ignore package locks
+package-lock.json
+
+# DEFAULT NODE IGNORE FILES
+# ==========================
+
 # Logs
 logs
 *.log
